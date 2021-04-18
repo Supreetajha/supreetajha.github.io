@@ -111,10 +111,10 @@ Evil.prototype.move = function() {
 
 let userBall = new Evil(100,200)
 let balls = []
-for(i=0;i<25;++i)
+for(i=0;i<30;++i)
 {   
     const color = 'rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')'
-    let newBall = new Balls(random(0,width),random(0,height),random(-10,10),random(-20,20),random(10,30),color,true)
+    let newBall = new Balls(random(0,width),random(0,height),random(-10,10),random(-10,10),random(10,30),color,true)
     balls.push(newBall)
 }
 function eatUp() {
